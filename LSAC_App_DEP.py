@@ -22,8 +22,8 @@ elif app_mode=='Predict_Depression':
     #path = '/Users/marzia'
     #modelname = path + '/depressionmodel.pkl'
     #modelname = 'https://github.com/UmmeMarziaHaque/MH-Streamlit-App/blob/master/depressionmodel.pkl'
-    loaded_model = pickle.load(open('/Users/marzia/Desktop/code/MH_App/LSAC_DEP_EXIST_updated.pkl', 'rb'))
-    loaded_model1 = pickle.load(open('/Users/marzia/Desktop/code/MH_App/LSAC_DEP_AGE_updated1.pkl', 'rb'))
+    loaded_model = pickle.load(open('LSAC_DEP_EXIST_updated.pkl', 'rb'))
+    loaded_model1 = pickle.load(open('LSAC_DEP_AGE_updated1.pkl', 'rb'))
  
     age = st.sidebar.selectbox('Please enter age of the study child.', ("6","7","8","9","10","11","12","13","14","15"))
     
